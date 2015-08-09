@@ -32,6 +32,20 @@ How do the diagrams help you visualize the branch structure?
 It shows where your commits were in a linear path
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
--You get to merge the codes from an experimental branch to the master branch.
--git merge master coins
--git merge destination_branch temp_branch
+-You get to merge branches to a master or merge into an experimental branch.
+Steps to merge to master:
+a) git checkout master
+b) git merge master experimental_branch
+
+Steps to merge to experimental branch
+a) git checkout experimental_branch
+b) git merge master experimental_branch (Key point is: where you are sitting right now which is determined by 'checkout')
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Automatic merging
+Pros: Quicker
+Cons: Isn't smart enough to merge conflicting codes in a same line
+
+-Manual merging
+Pros: Can precisely determine how to merge since developers know the intent of their code better than machines
+Cons: Too much of time consuming code if a dev has to merge each file manually
