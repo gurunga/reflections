@@ -30,3 +30,8 @@ Steps:
 How do the diagrams help you visualize the branch structure?
 -git log --graph --oneline branch1 branch2 branch3
 It shows where your commits were in a linear path
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-You get to merge the codes from an experimental branch to the master branch.
+-git merge master coins
+-git merge destination_branch temp_branch
