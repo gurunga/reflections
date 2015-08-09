@@ -1,3 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
 - If multiple collaborators are working on a same project.
 - Storing all your work on a single local hard disk might risk losing it due to disk failure.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+- To avoid conflict with my local repository.
