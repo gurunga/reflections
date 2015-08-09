@@ -17,3 +17,12 @@ a) Use diff to see your changes.
 b) Choose which files to include
 c) Stage them using: git add fileName
 d) Commit them using: git commit
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-To introduce a new experimental feature without blocking the existing application.
+-Easier to merge into the main branch.
+Steps:
+1) git branch: Check your existing branches
+2) git branch new_branch: Create a new branch
+3) git checkout new_branch: Checkout and start working on new_branch
