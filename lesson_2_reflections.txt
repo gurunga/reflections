@@ -26,3 +26,7 @@ Steps:
 1) git branch: Check your existing branches
 2) git branch new_branch: Create a new branch
 3) git checkout new_branch: Checkout and start working on new_branch
+
+How do the diagrams help you visualize the branch structure?
+-git log --graph --oneline branch1 branch2 branch3
+It shows where your commits were in a linear path
