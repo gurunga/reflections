@@ -7,3 +7,13 @@ How is the staging area different from the working directory and the repository?
 - Staging area is ready for commit.
 - You can reset files in a staging area by using reset command. Eg git reset lesson_2_reflections.text
 - Staging area can be used to commit logical group of codes in separately.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-git diff: Shows the difference between your working directory and staging directory
+-git diff --staged: Shows the difference between your staging directory and git repository
+-git diff commitID1 commitID2: Shows the difference between two committed IDS in GIT repo
+Steps:
+a) Use diff to see your changes.
+b) Choose which files to include
+c) Stage them using: git add fileName
+d) Commit them using: git commit
