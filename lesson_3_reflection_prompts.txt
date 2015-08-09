@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+- If multiple collaborators are working on a same project.
+- Storing all your work on a single local hard disk might risk losing it due to disk failure.
