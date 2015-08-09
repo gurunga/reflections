@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+- Git automatically adds a hidden folder called '.git' to convert your folder to a git repository.
+- We need to do this in order to track your file commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- Working Directory is untracked by Git.
+- Staging area is ready for commit.
+- You can reset files in a staging area by using reset command. Eg git reset lesson_2_reflections.text
+- Staging area can be used to commit logical group of codes in separately.
