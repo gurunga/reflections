@@ -9,3 +9,14 @@ Describe the differences between forks, clones, and branches. When would you use
 - Forks: A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
   Clones: A clone is simply a copy of a repository.
   Branches: A branch is something that is within a repository. Conceptually, it represents a thread of development.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- We can work offline. For example, before boarding a flight, get a copy of the last known state of remote repo.
+ Then during the flight, you can work offline.
+ When you get back online, you can always fetch and merge your code with the remote repo.
+
+Option 1: git pull origin master
+
+Option 2: a) git fetch origin
+          b) switch to master branch
+          c) git merge master origin/master
