@@ -20,3 +20,8 @@ Option 1: git pull origin master
 Option 2: a) git fetch origin
           b) switch to master branch
           c) git merge master origin/master
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- Without Git, we have to collaborate by sharing code snippet through emails or through chat.
+- Easier: Don't need an extra tool like GIT to collaborate
+- Harder: To merge codes together and keep track of commits (who, what, when)
