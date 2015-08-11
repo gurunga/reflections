@@ -25,3 +25,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 - Without Git, we have to collaborate by sharing code snippet through emails or through chat.
 - Easier: Don't need an extra tool like GIT to collaborate
 - Harder: To merge codes together and keep track of commits (who, what, when)
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+-Background: Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
+We would want to make changes in a separate branch if we want other people to collaborate with us. We can always create a branch, then invite other collaborators using GitHub's pull request. Once everything thing looks fine, the branch can be merged into master. The temp branch can then be deleted(optional).
+Or if we are working on an experimental feature and don't want to directly apply commits to our master.
